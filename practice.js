@@ -31,7 +31,15 @@ const myInfo = `My name is ${nameIs}. I want to be a ${hobby}. I live in ${addre
 
 // console.log(myInfo);
 
+
+
 // ৩.১ একটা প্যারামিটার ওয়ালা arrow ফাংশন ডিক্লেয়ার করো। এবং সেই ফাংশনের কাজ হবে তুমি কোন ইনপুট দিলে সেই ইনপুট সংখ্যাকে ৫ দিয়ে ভাগ করে আউটপুট দিবে।
+
+const multipleFive = x => x / 5;
+const resu = multipleFive(25);
+const resu1 = multipleFive(255);
+console.log(resu);
+console.log(resu1);
 
 // ৩.২ তুমি দুইটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে। সেই ফাংশনের ভিতরে কাজ হবে। প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ২ যোগ করবে তারপর যোগফল দুইটা গুণ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো
 
