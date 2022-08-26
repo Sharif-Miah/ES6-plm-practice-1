@@ -38,10 +38,20 @@ const myInfo = `My name is ${nameIs}. I want to be a ${hobby}. I live in ${addre
 const multipleFive = x => x / 5;
 const resu = multipleFive(25);
 const resu1 = multipleFive(255);
-console.log(resu);
-console.log(resu1);
+// console.log(resu);
+// console.log(resu1);
 
 // ৩.২ তুমি দুইটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে। সেই ফাংশনের ভিতরে কাজ হবে। প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ২ যোগ করবে তারপর যোগফল দুইটা গুণ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো
+
+const addAndMul = (x, y) => {
+    const re1 = x + 2;
+    const re2 = y + 2;
+    const finalRe = re1 * re2;
+    return finalRe
+}
+
+const someNumber = addAndMul(10, 20);
+// console.log(someNumber);
 
 // ৩.৩ এইবার তিনটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন ডিক্লেয়ার করো। যেই ফাংশনের কাজ হবে তিনটা প্যারামিটার নিয়ে সেই তিনটা প্যারামিটারকে গুণ করে সেই রেজাল্ট রিটার্ন করবে।
 
